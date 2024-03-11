@@ -1,0 +1,78 @@
+body {
+    background: url(image/pexels-eberhard-grossgasteiger-1287075.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+.navbar, nav, a{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #ffffff;
+}    
+
+img{
+    margin-right: auto;
+    width: 5%;
+    height: 15%;
+}
+
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.cointaner1{
+    font-family: serif;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.cointaner1{
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      /* margin-left: 100%; */
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer--icons {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    align-items: flex-center;
+    justify-content: center;
+  }
+  
+  .footer--icons > img {
+    margin: 5px;
+  }
+

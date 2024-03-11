@@ -1,0 +1,130 @@
+body {
+    background: url(image/pexels-eberhard-grossgasteiger-1287075.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+.navbar, nav, a{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #000000;
+}    
+
+img{
+    margin-right: auto;
+    width: 5%;
+}
+
+a:link, a:visited {
+    color: white;
+  }
+  
+a :hover {
+    color: rgb(153, 194, 162);
+}
+
+/* .cointaner2{
+    font-family: sans-serif;
+    margin-left: 65px;
+}
+
+.box{
+    border: ridge 5mm rgba(255, 255, 255, .9); 
+    color: white;
+    font-family: sans-serif;
+    text-align: justify;
+    float: left;
+    margin-left: 1px;
+    width: 390px;
+    height: 250%;
+    margin: 30px;
+    margin-top: 50px;
+    text-shadow: 4px 4px 4px #000000;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ffffff71;
+} */
+
+.cointaner2{
+    /* color: rgb(255, 255, 255); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top:140px;
+}
+
+.box1{
+    background-image: url(image/2.PNG);
+    background-size: 600px;
+    width: 400px;
+    height: 400px;
+    border: 5px solid;
+    border-image: linear-gradient(blue,red,yellow,green) 1;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.box2{
+    background-image: url(image/1.PNG);
+    background-size: 400px;
+    /* position:relative; */
+    width: 400px;
+    height: 400px;
+    border: 5px solid;
+    border-image: linear-gradient(blue,red,yellow,green) 1;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.box3{
+    background-image: url(image/Capture.PNG);
+    background-size: 450px;
+    width: 400px;
+    height: 400px;
+    border: 5px solid;
+    border-image: linear-gradient(blue,red,yellow,green) 1;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+.box1:hover{
+    border: 5px solid;
+    border-image: linear-gradient(green,blue,red,yellow) 1;
+    padding: 0x;
+}
+
+.box2:hover{
+    border: 5px solid;
+    border-image: linear-gradient(green,blue,red,yellow) 1;
+    padding: 0x;
+}
+
+.box3:hover{
+    border: 5px solid;
+    border-image: linear-gradient(green,blue,red,yellow) 1;
+    padding: 0x;
+}
+
+.icon{
+    width: 400px;
+    height: 100px;
+    /* background-size: cover;
+    position: relative; */
+   
+}
+
+
+
+
+
